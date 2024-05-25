@@ -3,7 +3,7 @@ import 'package:chat_app/components/my_textfield.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import '../auth/auth_service.dart';
+import '../services/auth/auth_service.dart';
 
 class LoginPage extends StatelessWidget {
   final TextEditingController _emailController = TextEditingController();
