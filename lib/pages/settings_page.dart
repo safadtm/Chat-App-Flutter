@@ -21,13 +21,13 @@ class SettingsPage extends StatelessWidget {
           color: Theme.of(context).colorScheme.secondary,
           borderRadius: BorderRadius.circular(12),
         ),
-        margin: EdgeInsets.all(25),
-        padding: EdgeInsets.all(16),
+        margin: const EdgeInsets.all(25),
+        padding: const EdgeInsets.all(16),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             // dark mode
-            Text("Dark Mode"),
+            const Text("Dark Mode"),
 
             // switch toggle
             CupertinoSwitch(
